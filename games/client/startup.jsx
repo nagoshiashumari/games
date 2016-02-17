@@ -3,6 +3,7 @@ if (Meteor.isClient) {
  
   Meteor.startup(function () {
     // Use Meteor.startup to render the component after the page is ready
-    React.render(<Background />, document.getElementById("render-target"));
+    React.render(<Header />, document.getElementById("Header-target"));
+    React.render(<ProjectContainer />, document.getElementById("ProjectContainer-target"));
   });
 }
